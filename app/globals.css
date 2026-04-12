@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-dancing: 'Dancing Script', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdf2f8;
+  color: #3d1a26;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fce7f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #f9a8d4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ec4899;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #fce7f3;
+  color: #be185d;
+}
+
+/* Page divider line */
+.divider-line {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #f9a8d4, #fcd34d, #f9a8d4, transparent);
+}
+
+/* Ornamental separator */
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.ornament::before,
+.ornament::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #f472b6);
+}
+.ornament::after {
+  background: linear-gradient(to left, transparent, #f472b6);
+}
+
+/* Text gradient */
+.text-gradient-rose {
+  background: linear-gradient(135deg, #ec4899, #be185d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-romantic {
+  background: linear-gradient(135deg, #ec4899, #fbbf24, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(249, 168, 212, 0.3);
+}
+
+/* Photo slot */
+.photo-slot {
+  aspect-ratio: 4/5;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 2px dashed #f9a8d4;
+  transition: all 0.3s ease;
+}
+.photo-slot:hover {
+  border-color: #ec4899;
+  box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.1);
+}
+.photo-slot.has-photo {
+  border-style: solid;
+  border-color: #f472b6;
+}
+
+/* Chapter number */
+.chapter-number {
+  font-family: var(--font-playfair);
+  font-size: 8rem;
+  line-height: 1;
+  color: rgba(244, 114, 182, 0.08);
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Decorative quote marks */
+.quote-mark {
+  font-family: var(--font-playfair);
+  font-size: 6rem;
+  line-height: 0.5;
+  color: #fce7f3;
+  vertical-align: -0.5em;
+  margin-right: 0.1em;
+}
+
+/* Letter paper texture */
+.letter-paper {
+  background-image:
+    repeating-linear-gradient(
+      transparent,
+      transparent 31px,
+      rgba(249, 168, 212, 0.15) 31px,
+      rgba(249, 168, 212, 0.15) 32px
+    );
+  background-size: 100% 32px;
+  line-height: 2rem;
+}
+
+/* Petal particle */
+.petal {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  font-size: 1.2rem;
+  animation: petalFall linear infinite;
+}
+
+@keyframes petalFall {
+  0% {
+    transform: translateY(-5vh) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.9;
+  }
+  95% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(105vh) translateX(40px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Fade in animations */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Heart pulse */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.15); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.1); }
+  70% { transform: scale(1); }
+}
+.animate-heartbeat {
+  animation: heartbeat 1.8s ease-in-out infinite;
+}
+
+/* Book page shadow */
+.book-shadow {
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.04),
+    0 10px 15px rgba(236, 72, 153, 0.08),
+    0 20px 25px rgba(0,0,0,0.05);
+}

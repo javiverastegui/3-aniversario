@@ -1,42 +1,58 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, Dancing_Script } from "next/font/google";
+import {
+  Cormorant_Garamond,
+  JetBrains_Mono,
+  Caveat,
+  Homemade_Apple,
+} from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-cormorant",
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
+  display: "swap",
 });
 
-const inter = Inter({
+const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-inter",
-  weight: ["300", "400", "500"],
+  variable: "--font-jetbrains",
+  weight: ["400", "500"],
+  display: "swap",
 });
 
-const dancing = Dancing_Script({
+const caveat = Caveat({
   subsets: ["latin"],
-  variable: "--font-dancing",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-caveat",
+  weight: ["400", "500", "700"],
+  display: "swap",
+});
+
+const homemadeApple = Homemade_Apple({
+  subsets: ["latin"],
+  variable: "--font-homemade",
+  weight: ["400"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Para Hedder — 3 Años Contigo",
+  title: "El Libro de Nosotros · Hedder & Javier",
   description: "Una historia de amor escrita en cada momento que hemos compartido.",
   openGraph: {
-    title: "Para Hedder — 3 Años Contigo",
+    title: "El Libro de Nosotros · Hedder & Javier",
     description: "Una historia de amor escrita en cada momento que hemos compartido.",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es" className={`${playfair.variable} ${inter.variable} ${dancing.variable}`}>
+    <html
+      lang="es"
+      className={`${cormorant.variable} ${jetbrains.variable} ${caveat.variable} ${homemadeApple.variable}`}
+    >
       <body>{children}</body>
     </html>
   );

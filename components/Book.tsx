@@ -58,7 +58,7 @@ const CHAPTERS: Chapter[] = [
     title: "Nuestro primer 'café'",
     location: "Providencia, 2023",
     description:
-      "A pesar de que no fue una cita como la de los demás, este recuerdo tiene un lugar especial en mi corazón. El parque y el cerro, junto con el jardín japonés me llenan de recuerdos sobre cómo tuvimos nuestro primer momento oficial nuestro.",
+      "A pesar de que no fue una cita como la de los demás, este recuerdo tiene un lugar especial en mi corazón. El parque y el cerro, junto con el jardín japonés me llenan de recuerdos sobre cómo tuvimos nuestro primer momento oficial nuestro. Mirando hacia atras, estabamos muy jovenes, inocentes y... Distintos. Algo que el paso del tiempo nos ha demostrado que, a pesar de todo lo que ocurren dentro de 3 años, podemos (y seguiremos!) estando juntos. Es curioso porque si ves las fotos, puedes ver incluso como se esta recuperandome el corte en la ceja.",
     quote: "Conozco un café aesthetic que te gustaría.",
     captions: ["Ese día", "Nosotros", "El reflejo de nosotros"],
     photos: [
@@ -75,7 +75,7 @@ const CHAPTERS: Chapter[] = [
     title: "Nuestro Primer Matrimonio",
     location: "Concón, 2024",
     description:
-      "Ver al Martín llorar por la situación también me llegó. Un día cargado de emociones, de situaciones y de recuerdos. De cómo bailamos Dancing Queen como si fuera la última canción que fuéramos a bailar.",
+      "Ver al Martín llorar por la situación también me llegó. Un día cargado de emociones, de situaciones y de recuerdos. De cómo bailamos Dancing Queen como si fuera la última canción que fuéramos a bailar. De inolvidables momentos, fotos y chascarros que dejaron una marca (y espero que a ti tambien) muy agradable dentro de tu corazón, espero que podamos vivir un momento así de especial juntos, eventualmente, cuando logremos tener todo lo que alguna vez quisimos. Sin perdernos nunca en los jamáses de la vida.",
     quote: "Puedes besar a la novia.",
     captions: ["El outfit", "Nosotros", "Con nuestro estilo"],
     photos: [
@@ -92,7 +92,7 @@ const CHAPTERS: Chapter[] = [
     title: "Torres del Parque Cantalao",
     location: "Parque Cantalao, 2025",
     description:
-      "Deberíamos volver a hacer trekking, de hecho. Vivir esos momentos de adrenalina, en donde estábamos a un paso de algo potencialmente trágico, junto a ti. De cierta forma, estar contigo me hizo más fuerte, para lograr ver Santiago contigo.",
+      "Deberíamos volver a hacer trekking, de hecho. Vivir esos momentos de adrenalina, en donde estábamos a un paso de algo potencialmente trágico, junto a ti. De cierta forma, estar contigo me hizo más fuerte, para lograr ver Santiago contigo. Esas vistas hermosas de la ciudad entera, ignorando el smog. Fueron una gran recompensa final, aunque la recompensa nunca fueron las vistas, si no vivir esto junto a ti. Espero que de verdad, tengamos más aventuras juntos! Es lo que deseo que sea nuestra historia. Una aventura sin fin (y sin rumbo).",
     quote: "Lo más lindo del lugar, a pesar de estar con un paisaje, siempre fuiste tú.",
     captions: ["Metido en una base militar", "Nosotros", "Mi paisaje favorito"],
     photos: [
@@ -109,7 +109,7 @@ const CHAPTERS: Chapter[] = [
     title: "Cada Día Contigo",
     location: "En cualquier lugar donde estés tú",
     description:
-      "A fin de cuentas, a pesar de nuestras peleas, cada día contigo hace que mi vida sea especial. Me siento realmente afortunado de tenerte en mi vida. Te amo.",
+      "A fin de cuentas, a pesar de nuestras peleas, cada día contigo hace que mi vida sea especial. Me siento realmente afortunado de tenerte en mi vida. Verte despertar en las mañanas, irte a buscar a la cama del lado porque no podiamos quedarnos dormidos juntos, pero despues cuando sale el sol, no poder despegarnos del otro. Es lo que me encanta de ti, de nosotros, y de mi vida cuando llegaste. Que nuestras vidas sigan así, un rumbo sin destino, el cual lo vivamos juntos, en el bien y en el mal, con todo lo bueno y lo malo. Porque a pesar de todo, te prefiero y te preferiré a ti siempre. Te amo.",
     quote: "Cada día contigo hace mi vida más especial.",
     captions: ["Un día cualquiera", "Y otro más", "Y así, siempre"],
     photos: [
@@ -122,12 +122,12 @@ const CHAPTERS: Chapter[] = [
 ];
 
 const LETTER = [
-  "Hedder, amorcito, chiquibubu (aunque no te lo he dicho últimamente). Ya cumplimos 3 años y además de escribirte esta carta digital, quiero que sea un tributo y una conmemoración a la gran persona que fuiste y eres.",
+  "Hedder, amorcito, chiquibubu (aunque no te lo he dicho últimamente). Ya cumplimos 3 años y además de escribirte esta carta digital, quiero que sea un tributo y una conmemoración a la gran persona que fuiste, eres y serás.",
   "Han pasado muchas cosas en estos 3 años, cosas muy buenas, y cosas muy malas, hemos tomado distancia, hemos cometido errores. Pero hemos aprendido de ellos, y lo más importante, has decidido quedarte, a seguir intentándolo, una y otra vez. Y mira hasta donde hemos llegado, ¡3 años!",
-  "Por todo esto, agradezco la persona que eres, tu forma de ser, tu alma. Son muy pocas personas las que han decidido, a pesar de que me equivoco (y muy probablemente lo seguiré haciendo), se han quedado. Y por esto, te lo agradeceré toda mi vida.",
-  "No sé lo que viene. Nadie lo sabe. Pero sé esto con la certeza de muy pocas cosas en la vida: quiero seguir escribiendo mi, nuestra historia contigo. Quiero que cada próximo capítulo de la vida te encuentre floreciendo, y que yo tenga el privilegio de estar bien cerca para ver tanto cómo floreces como los frutos que das.",
-  "Gracias por existir, por elegirme y en especial, por quedarte. Por cada versión de ti que he conocido y por todas las que faltan. Eres, en el sentido más profundo que conozco, mi persona.",
-  "PD: Sé que tenemos muchos más recuerdos, la playa (las dos veces), el último matrimonio, y etc. Pero estos son especiales para mí. Porque fueron la primera vez que hicimos algo nuevo.",
+  "Por todo esto, agradezco la persona que eres, tu forma de ser, tu alma. Son muy pocas personas las que han decidido, a pesar de que me equívoco (y muy probablemente lo seguiré haciendo), se han quedado. Y por esto, te lo agradeceré toda mi vida.",
+  "No sé lo que viene. Nadie lo sabe. Pero sé esto con la certeza de muy pocas cosas en la vida: quiero seguir escribiendo mi... nuestra historia contigo. Quiero que cada próximo capítulo de la vida te encuentre floreciendo, y que yo tenga el privilegio de estar bien cerca para ver tanto cómo floreces como los frutos que das.",
+  "Gracias por existir, por elegirme y en especial, por quedarte. Por cada versión de ti que he conocido y por todas las que faltan. Eres, en el sentido más profundo que conozco, mi persona, mi razón unica y mi alma favorita.",
+  "PD: Sé que tenemos muchos más recuerdos, la playa (las dos veces), el último matrimonio, y etc. Pero estos son especiales para mí. Porque fueron los recuerdos más vividos que tengo contigo, y que nunca, con el paso de los años se me olvidarán.",
 ];
 
 // ─── Days counter ─────────────────────────────────────────────
@@ -1114,7 +1114,7 @@ function buildSpreads(): Spread[] {
     if (next) spreads.push([{ kind: "blank" }, { kind: "opener", ch: next }]);
   }
   spreads.push([{ kind: "letter1" }, { kind: "letter2" }]);
-  spreads.push([{ kind: "closing" }, { kind: "endpaper" }]);
+  spreads.push([{ kind: "endpaper" }, { kind: "closing" }]);
   return spreads;
 }
 
@@ -1151,6 +1151,7 @@ function renderPage(p: PageDef | null): JSX.Element | null {
             position: "relative",
           }}
         >
+          Y continuamos...
           <div
             style={{
               position: "absolute",
